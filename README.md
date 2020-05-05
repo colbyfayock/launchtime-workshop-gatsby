@@ -11,7 +11,11 @@ In this workshop, you'll learn the basics of mapping with [React Leaflet](https:
 
 ## Before the Workshop
 
-Here are a few things that you would ideally have done before we jump into the workshop.
+There are a few things that you would ideally have done before we jump into the workshop:
+* Make sure you're set up with the minimum environment requirements
+* Set up the base of the project and installed dependencies
+* Confirmed you're able to start the project
+* Have [Zoom](https://zoom.us/) installed - this will just help the morning of the workshop to be less stressful!
 
 ### Environment Requirements
 There are only a few things that are probably considered "strict" requirements for the workshop:
@@ -54,5 +58,12 @@ We'll start off with some tools that can help us focus on learning to work with 
 * [Sass](https://sass-lang.com/) - "CSS with superpowers" that allows us to easily maintain modular CSS stylesheets
 
 With these tools, we'll be able to dive right into building our map!
+
+### Installing and Using Zoom
+We'll be using [Zoom](https://zoom.us/) for the workshop. This is a great tool that helps give everyone the ability to interact with me as I work through the material with you.
+
+Here are some things that seems to have worked well for past workshops:
+* **Keep your video on** - just like being in a physical classroom, having your camera on helps put a face to the person. It'll make your experience better as we're all working through this together!
+* **Keep your microphone muted unless you're speaking** - I'll be doing most of the talking as I'm walking everyone through the material so keeping your microphone muted will help everyone hear what I'm saying. That said, I'm looking forward to hearing from you all and feel free to ask a question at any time!
 
 ## During The Workshop
