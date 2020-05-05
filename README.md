@@ -1,4 +1,4 @@
-# Build a Map with React Leaflet - LaunchTime
+# 🗺️ Build a Map with React Leaflet - LaunchTime
 
 In this workshop, you'll learn the basics of mapping with [React Leaflet](https://react-leaflet.js.org/) as we work through creating a new map from scratch in a simple React application. From there, we'll layer in data and location-based features that will allow us to create a map that somebody could use to look up their favorite restaurants!
 
