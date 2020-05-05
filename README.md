@@ -19,7 +19,7 @@ There are only a few things that are probably considered "strict" requirements f
 * [git](https://git-scm.com/)
 * [yarn](https://yarnpkg.com/) (or npm via node)
 
-I'll be using yarn in the workshop but most of these commands should work very similarly with npm.
+I'll be using **yarn** in the workshop but most of these commands should work very similarly with **npm**.
 
 The **operating system** you use shouldn't matter as long as you can run commands with yarn or npm.
 
@@ -44,7 +44,9 @@ After all of the dependencies are installed, you should be good to go!
 yarn develop # or npm run develop
 ```
 
-This should kick off a new server available at http://localhost:8000!
+This should kick off a new server available at http://localhost:8000.
+
+If you've successfully started up your development server, you should be ready to go for the workshop!
 
 ### What's In This Project?
 We'll start off with some tools that can help us focus on learning to work with maps. Those include:
