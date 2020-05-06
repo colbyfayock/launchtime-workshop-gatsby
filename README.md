@@ -7,15 +7,15 @@ In this workshop, you'll learn the basics of mapping with [React Leaflet](https:
 * [Before the Workshop](#before-the-workshop)
 * [During the Workshop](#during-the-workshop)
 
-## Workshop Overview
+## 🔍 Workshop Overview
 Excited to learn? You should be! Here's some of the stuff we'll learn in this workshop:
 * Adding a new map to a React app with React Leaflet
 * Customize that map with a Mapbox basemap style
 * Use Leaflet's location API to find our locatoin
 * Add restaurants to the map and see if they'll deliver to our location
 
-## Who Am I?
-👋 I'm Colby Fayock! I've been working on mapping projects that put a user interface in front of big challenges that involve a lot of data like the imagery that comes from satellites and tools that help manage team resources for disaster relief. Working through these projects has made me passionate about the cool things we can do with maps to help others whether it's helping someone find their favorite restaurant or giving new tools to scientists around the world.
+## 👋 Who Am I?
+I'm Colby Fayock! I've been working on mapping projects that put a user interface in front of big challenges that involve a lot of data like the imagery that comes from satellites and tools that help manage team resources for disaster relief. Working through these projects has made me passionate about the cool things we can do with maps to help others whether it's helping someone find their favorite restaurant or giving new tools to scientists around the world.
 
 ## Before the Workshop
 
