@@ -14,8 +14,12 @@ Excited to learn? You should be! Here's some of the stuff we'll learn in this wo
 * Use Leaflet's location API to find our locatoin
 * Add restaurants to the map and see if they'll deliver to our location
 
-## 👋 Who Am I?
+## 👨‍🚀 Who Am I?
 I'm Colby Fayock! I've been working on mapping projects that put a user interface in front of big challenges that involve a lot of data like the imagery that comes from satellites and tools that help manage team resources for disaster relief. Working through these projects has made me passionate about the cool things we can do with maps to help others whether it's helping someone find their favorite restaurant or giving new tools to scientists around the world.
+
+Beyond the [video lessons I've worked on with Egghead](https://egghead.io/playlists/mapping-with-react-leaflet-e0e0?af=atzgap), I've written [a few](https://www.colbyfayock.com/2020/03/how-to-create-a-coronavirus-covid-19-dashboard-map-app-with-gatsby-and-leaflet) [tutorials](https://www.colbyfayock.com/2020/03/how-to-create-a-summer-road-trip-mapping-app-with-gatsby-and-leaflet/) and a [little bit of inspiration](https://www.colbyfayock.com/2020/03/anyone-can-map-inspiration-and-an-introduction-to-the-world-of-mapping/) for [getting started with maps](https://www.freecodecamp.org/news/easily-spin-up-a-mapping-app-in-react-with-leaflet/) along with a talk I gave at a few conferences called [Building Maps with Impact on React and the JAMstack](https://www.youtube.com/playlist?list=PLFsfg2xP7cbLuAglQob6zjS4nVbyAfSVV).
+
+You can also find me on Twitter at [@colbyfayock](https://twitter.com/colbyfayock)!
 
 ## 🧰 Before the Workshop
 
