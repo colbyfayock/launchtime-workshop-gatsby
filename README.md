@@ -17,7 +17,7 @@ Excited to learn? You should be! Here's some of the stuff we'll learn in this wo
 ## 👋 Who Am I?
 I'm Colby Fayock! I've been working on mapping projects that put a user interface in front of big challenges that involve a lot of data like the imagery that comes from satellites and tools that help manage team resources for disaster relief. Working through these projects has made me passionate about the cool things we can do with maps to help others whether it's helping someone find their favorite restaurant or giving new tools to scientists around the world.
 
-## Before the Workshop
+## 🧰 Before the Workshop
 
 There are a few things that you would ideally have done before we jump into the workshop:
 * Make sure you're set up with the minimum environment requirements
@@ -74,4 +74,28 @@ Here are some things that seems to have worked well for past workshops:
 * **Keep your video on** - just like being in a physical classroom, having your camera on helps put a face to the person. It'll make your experience better as we're all working through this together!
 * **Keep your microphone muted unless you're speaking** - I'll be doing most of the talking as I'm walking everyone through the material so keeping your microphone muted will help everyone hear what I'm saying. That said, I'm looking forward to hearing from you all and feel free to ask a question at any time!
 
-## During The Workshop
+## 🖥 The Workshop
+
+### Lesson Plan
+
+* 00 - Introduction
+* 01 - A Little Overview About Maps
+* 02 - Adding Your First React Leaflet Map to a New React Application
+* 03 - Customizing Your React Leaflet Map with a Mapbox Basemap Style
+* 04 - Adding a Shapes and Markers to a Map with React Leaflet
+* 05 - Managing Leaflet State in a React App with Hooks
+* 06 - Create Your First GeoJSON Document with Your Favorite Restaurant Locations
+* 07 - Adding Restaurant Locations to a React Leaflet Map
+* 08 - Customize Restaurant Location Markers with Custom Images
+* 09 - Add Custom Tooltips to Markers with Restaurant Information
+* 10 - Add Shaded Regions to Map with Restaurant Delivery Zones
+* 11 - Use Leaflet's Geolocation API to Find Your Location
+
+## 🎓 After the Workshop
+
+I hope after we have worked through this project together you both feel inspired and empowered to go build your own mapping apps. Maps are a super important tool to helping our best and brightest do awesome things along with some other fun things we can do along the way.
+
+### Feedback
+The good, the bad -- I want to know! I would really appreciate you taking any time to hop in this survey and be honest about your experience with the workshop. Please take into consideration both how much you've enjoyed the workshop and how much you felt you've learned.
+
+
