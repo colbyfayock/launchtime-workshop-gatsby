@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from 'assets/images/LaunchTime-logo.svg';
+import logo from 'assets/images/launchtime-logo.svg';
 
 const Logo = () => {
   return (
