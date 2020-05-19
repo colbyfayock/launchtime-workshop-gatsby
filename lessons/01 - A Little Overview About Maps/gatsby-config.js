@@ -1,6 +1,13 @@
+const path = require('path');
+
 module.exports = {
   plugins: [
-    'gatsby-plugin-resolve-src',
+    {
+      resolve: 'gatsby-plugin-resolve-src',
+      options: {
+        srcPath: path.resolve(__dirname, 'src'),
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {

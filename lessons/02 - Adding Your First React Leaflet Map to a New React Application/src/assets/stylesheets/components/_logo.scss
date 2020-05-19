@@ -1,0 +1,20 @@
+.logo {
+
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 0;
+
+  &,
+  a {
+    color: $LaunchTime-purple-dark;
+  }
+
+  img {
+    display: block;
+    width: 1.6em;
+    height: auto;
+    margin-right: .5em;
+  }
+
+}
