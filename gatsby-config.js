@@ -16,8 +16,8 @@ module.exports = {
         name: 'LaunchTime',
         short_name: 'LaunchTime',
         start_url: '/',
-        icon: './src/assets/images/launchtime-one-color.png'
+        icon: './src/assets/images/launchtime-one-color.png',
       },
-    }
+    },
   ],
-}
+};
