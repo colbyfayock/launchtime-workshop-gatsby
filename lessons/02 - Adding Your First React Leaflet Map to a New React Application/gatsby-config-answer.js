@@ -27,11 +27,11 @@ module.exports = {
       },
     },
     /**
-     * @lesson-02-todo
-     * When trying to build our app, we run into issues with our
-     * libraries requiring the Window. The Window doesn't exist
-     * during the build process because we're not in a browser,
-     * we're in Node. How can we use a plugin to fix this?
+     * @lesson-02-answer
+     * In order to take advantage of some of the Webpack fixes
+     * for Leaflet without taking care of it ourselves, we can use
+     * the React Leaflet Gatsby Plugin in our project.
      */
+    'gatsby-plugin-react-leaflet'
   ],
 };

@@ -1,0 +1,12 @@
+/**
+ * @lesson-02-answer
+ * Adding a fixed size to our map helps Leaflet understand
+ * where to render our map. Setting both the width and height
+ * on our .leaflet-container to 100% allows us to expand the
+ * map to all available space.
+ */
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
