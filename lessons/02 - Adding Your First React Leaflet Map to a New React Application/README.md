@@ -10,6 +10,8 @@ We just installed all of our dependencies that will allow us to get started buil
 
 ## Exercise
 
+🕵️‍♂️ Use the `@lesson-02-todo` key to find your assignments for this lesson!
+
 ### 1. Adding a new map to the Search page
 
 The first thing we need to do is actually add our map. We already installed our dependencies, so now it's a matter of using them to import our components.
