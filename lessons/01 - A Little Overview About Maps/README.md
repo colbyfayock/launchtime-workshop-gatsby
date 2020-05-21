@@ -27,7 +27,7 @@ To get started, we need to install:
 
 Once installed, we'll want to spin up our app!
 
-### 3. Extra Credit
+## Extra Credit
 
 Before we dig in, let's personalize our app!
 
