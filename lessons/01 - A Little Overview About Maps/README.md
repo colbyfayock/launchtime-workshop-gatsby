@@ -24,3 +24,16 @@ While there are a few options for building maps, [Leaflet](https://leafletjs.com
 To get started, we need to install:
 * [Leaflet](https://www.npmjs.com/package/leaflet)
 * [React Leaflet](https://www.npmjs.com/package/react-leaflet)
+
+Once installed, we'll want to spin up our app!
+
+### 3. Extra Credit
+
+Before we dig in, let's personalize our app!
+
+For the first Extra Credit activity, look for the `avatar.jpg` file and update it with your own photo.
+
+You can find the image file at:
+```
+/lessons/shared-assets/avatar.jpg
+```
