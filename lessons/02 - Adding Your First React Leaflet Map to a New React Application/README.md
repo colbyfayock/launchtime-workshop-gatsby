@@ -10,7 +10,7 @@ We just installed all of our dependencies that will allow us to get started buil
 
 ## Exercise
 
-🕵️‍♂️ Use the `@lesson-02-todo` key to find your assignments for this lesson!
+🕵️‍♂️ Use the `@lesson-02-todo` key to search for this lesson's assignments in the code!
 
 ### 1. Adding a new map to the Search page
 
