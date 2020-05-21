@@ -20,12 +20,20 @@ There are 2 primary components that we'll need to use:
 
 We'll import these components from React Leaflet and use them to create our map.
 
+#### Where we'll make changes
+* /src/pages/search.js
+* /src/assets/stylesheets/components/_maps.scss
+
 ### 2. Making our map take up all of the space on the Search page
 
 With our map rendered, we'll notice that there's a white border around the edge of our map. We want our custoemrs to be able to see a fullscreen look at the locations we have available, so we'll want to figure out a way to remove the extra space around our map.
+
+#### Where we'll make changes
+* /src/assets/stylesheets/components/_search.scss
 
 ### 3. Preventing build errors when compiling the app
 
 Ultimately, we'll want to build our application out in order to host and deploy it to a website. To do this, we need Gatsby to be able to successfully build our app. But when running the `build` script via yarn or npm, we run into an error. What can we do to fix this?
 
-## Extra Credit
+#### Where we'll make changes
+* /gatsby-config.js
