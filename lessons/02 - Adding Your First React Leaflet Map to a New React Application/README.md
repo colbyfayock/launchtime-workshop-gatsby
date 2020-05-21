@@ -1,4 +1,4 @@
-# Lesson 02 - Adding Your First React Leaflet Map to a New React Application
+# Lesson 02: Adding Your First React Leaflet Map to a New React Application
 
 We just installed all of our dependencies that will allow us to get started building a new map including [Leaflet](https://leafletjs.com/) and [React Leaflet](https://react-leaflet.js.org/). Now that we can actually add a map to our page, our new assignment is now to create that new map that takes up all of the space on the Search page. That way, all of our hungry customer can easily search the map for their favorite locations.
 
