@@ -12,7 +12,18 @@ We just installed all of our dependencies that will allow us to get started buil
 
 🕵️‍♂️ Use the `@lesson-02-todo` key to search for this lesson's assignments in the code!
 
-### 1. Adding a new map to the Search page
+### 1. Installing Our Dependencies
+
+While there are a few options for building maps, [Leaflet](https://leafletjs.com/) is the most popular. Lucky for us, Leaflet is also available as a ReactJS component library with [React Leaflet](https://react-leaflet.js.org/). We'll use both Leaflet and React Leaflet to build a map in our React-based Gatsby app.
+
+To get started, we need to install:
+* [Leaflet](https://www.npmjs.com/package/leaflet)
+* [React Leaflet](https://www.npmjs.com/package/react-leaflet)
+
+#### Where We'll Make Changes
+* Use your package manager like yarn or npm to add the dependencies
+
+### 2. Adding a new map to the Search page
 
 The first thing we need to do is actually add our map. We already installed our dependencies, so now it's a matter of using them to import our components.
 
@@ -22,20 +33,22 @@ There are 2 primary components that we'll need to use:
 
 We'll import these components from React Leaflet and use them to create our map.
 
-#### Where we'll make changes
+#### Where We'll Make Changes
 * `/src/pages/search.js`
 * `/src/assets/stylesheets/components/_maps.scss`
 
-### 2. Making our map take up all of the space on the Search page
+### 3. Making our map take up all of the space on the Search page
 
 With our map rendered, we'll notice that there's a white border around the edge of our map. We want our custoemrs to be able to see a fullscreen look at the locations we have available, so we'll want to figure out a way to remove the extra space around our map.
 
-#### Where we'll make changes
+#### Where We'll Make Changes
 * `/src/assets/stylesheets/components/_search.scss`
 
-### 3. Preventing build errors when compiling the app
+## Extra Credit
+
+### 1. Preventing build errors when compiling the app
 
 Ultimately, we'll want to build our application out in order to host and deploy it to a website. To do this, we need Gatsby to be able to successfully build our app. But when running the `build` script via yarn or npm, we run into an error. What can we do to fix this?
 
-#### Where we'll make changes
+#### Where We'll Make Changes
 * `/gatsby-config.js`

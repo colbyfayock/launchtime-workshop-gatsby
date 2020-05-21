@@ -1,4 +1,4 @@
-# Lesson 01 - A Little Overview About Maps
+# Lesson 01: A Little Overview About Maps
 
 The last time you drove out of town, how did you find where to go? That's right, you most likely used a mapping app like Google Maps or Apple Maps, but did you ever think about how those maps were built and whether or not you could build your own?
 
@@ -12,20 +12,9 @@ For our first lesson, we're going to briefly walk through how maps work and kick
 * Learn about mapping technologies like Leaflet
 * Prepare project by installing Leaflet
 
-
 ### 1. Mapping Overview
 
 We'll start by hearing a little bit about how maps work and some cool examples to get us ready for the workshop!
-
-### 2. Installing Our Dependencies
-
-While there are a few options for building maps, [Leaflet](https://leafletjs.com/) is the most popular. Lucky for us, Leaflet is also available as a ReactJS component library with [React Leaflet](https://react-leaflet.js.org/). We'll use both Leaflet and React Leaflet to build a map in our React-based Gatsby app.
-
-To get started, we need to install:
-* [Leaflet](https://www.npmjs.com/package/leaflet)
-* [React Leaflet](https://www.npmjs.com/package/react-leaflet)
-
-Once installed, we'll want to spin up our app!
 
 ## Extra Credit
 
@@ -33,7 +22,7 @@ Before we dig in, let's personalize our app!
 
 For the first Extra Credit activity, look for the `avatar.jpg` file and update it with your own photo.
 
-You can find the image file at:
-```
-/lessons/shared-assets/avatar.jpg
-```
+You can find the image file in `/lessons/shared-assets`.
+
+#### Where We'll Make Changes
+* `/lessons/shared-assets/avatar.jpg`
