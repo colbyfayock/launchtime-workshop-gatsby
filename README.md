@@ -50,11 +50,21 @@ Once you verified you have all of the environment requirements, we can get start
 ```
 git clone https://github.com/colbyfayock/launchtime-workshop
 cd launchtime-workshop
-yarn install # or npm install
 ```
 
+All of the lessons are contained in their own individual directory within the lessons folder.
+
+For each lesson, you can start from scratch by navigating to that lesson's directory and running:
+```
+yarn install
+# or 
+npm install
+```
+
+This will install all of the required dependencies to get started for the lesson.
+
 ### Starting Up the Project
-After all of the dependencies are installed, you should be good to go!
+After all of the dependencies are installed for the lesson, you should be good to go!
 * Run:
 ```
 yarn develop # or npm run develop
@@ -79,6 +89,18 @@ Here are some things that seems to have worked well for past workshops:
 * **Keep your microphone muted unless you're speaking** - I'll be doing most of the talking as I'm walking everyone through the material so keeping your microphone muted will help everyone hear what I'm saying. That said, I'm looking forward to hearing from you all and feel free to ask a question at any time!
 
 ## 🖥 The Workshop
+
+### Lessons Structure
+
+Each lesson is broken out into it's own directory under the lessons folder. Each contain's its own set of dependencies (though most are the same) as well as its own project code that we'll use to work through the exercise.
+
+You'll find a README.md at the top of each lesson. This will give you an overview and instructions for that particular lesson as well as what files you'll need to work through.
+
+As you're working through the lesson, you can use designated keys to find locations in the code where changes should be made. These keys can be used by searching for them in your code editor. The keys available are:
+* `@lesson-##-todo`
+* `@lesson-##-answer`
+
+For example, if we want to find all of the spots where we should be working for lesson 2, we can use the `@lesson-02-todo` key to find those files and locations.
 
 ### Lesson Plan
 
