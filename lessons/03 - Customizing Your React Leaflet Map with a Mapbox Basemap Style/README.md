@@ -1,5 +1,9 @@
 # Lesson 03: Customizing Your React Leaflet Map with a Mapbox Basemap Style
 
+Not all maps are the same and neither is the data that goes on top! Sometimes it's easier to visualize data on top of a map that shows a really simple vector illustration of the different regions, but sometimes showing actual satellite imagery can help someone understand what the data actually means.
+
+We're going to learn how to customize our map so we can prepare it to add our data on top.
+
 ## Objectives
 * Create a new Mapbox account
 * Create a new Map Style in Mapbox
