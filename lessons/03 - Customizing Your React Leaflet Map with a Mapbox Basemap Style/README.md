@@ -1,6 +1,4 @@
-# Lesson 02: Customizing Your React Leaflet Map with a Mapbox Basemap Style
-
-
+# Lesson 03: Customizing Your React Leaflet Map with a Mapbox Basemap Style
 
 ## Objectives
 * Create a new Mapbox account
@@ -15,25 +13,51 @@
 
 ### 1. Creating a Mapbox Account
 
+To get started with customizing our map, we'll need a Mapbox account.
+
+Mapbox is a suite of mapping tools that provides services from creating a custom Map Style (like what we're doing) all the way to various APIs like looking up the coordinates of a location by an address.
+
+It's easy to create an account and they provide a generous free tier, so it makes a good option for us to get started!
+
 #### Where We'll Make Changes
-* Mapbox
+* [Mapbox](https://www.mapbox.com/)
 
 ### 2. Creating a Map Style in Mapbox
 
+Now that we have our Mapbox account, we can get started by creating a new Map Style.
+
+All maps basemap layer that provides the underlying imagery that we can display our data on top of. If you're looking at Google Maps, this likely looks like a vector drawing of all of the roads and features. Alternatively, you can use satellite imagery that allows you to see what the actual locations look like.
+
+For this part of the exercise, we'll be using Mapbox's Monochrone Map Style to give our map a nice clean look.
+
 #### Where We'll Make Changes
-* Mapbox Studio
+* [Mapbox Studio](https://studio.mapbox.com/)
 
 ### 3. Creating an API Key
 
+As we know, Mapbox is a suite of tools that provide a bunch of services. But those services can't be free forever or else they'ed be out of business! That's where an API Key comes in.
+
+When using a basemap from Mapbox, an API Key is a way for Mapbox to know the request to their servers is authenticated and valid. Additionally, it gives them a way to track how much that key's being used.
+
+Mapbox gives you a default key, which is okay to use, but we're going to create a new key that we can use specifically for our project.
+
 #### Where We'll Make Changes
-* Mapbox
+* [Mapbox Account](https://account.mapbox.com/)
 
 ### 4. Configuring a Mapbox Endpoint for our Map Style
 
-#### Where We'll Make Changes
-* Mapbox
+We've set up the two most important parts of our Map Style, now we need to configure the URL that will allow us to use that Style!
+
+Using our API Key, user ID, and Map Style ID, we'll create a tile endpoint that we can use to configure our map.
+
+#### What We'll Reference
+* [Mapbox Docs](https://docs.mapbox.com/api/maps/#static-tiles)
 
 ### 5. Customizing Our Map with Our Map Style Endpoint
+
+Now that we have the last piece to our puzzle, our tile endpoint, we can configure out map to use it!
+
+We'll update our Map compopnent that we set up in the previous lesson to use our new Map Style.
 
 #### Where We'll Make Changes
 * `/src/pages/search.js`
@@ -44,12 +68,13 @@
 
 Here's where you can go nuts!
 
-Your first extra credit assignment is to go back to Mapbox and create a new Map Style. Feel free to customize whatever you'd and use any colors.
+Your first extra credit assignment is to go back to Mapbox and create a new Map Style. Now that you're on your own, you can choose any basemap you want, whether it's a vector map or one with satellite imagery. Feel free to customize and use any color you'd like!
 
 Once you create your new style, you can update your Search page basemap TileLayer to use that new style.
 
 #### Where We'll Make Changes
-* Mapbox Studio
+* [Mapbox Studio](https://studio.mapbox.com/)
+* `/src/pages/search.js`
 
 ### 2. Create an Environment Variable for the API Key
 
