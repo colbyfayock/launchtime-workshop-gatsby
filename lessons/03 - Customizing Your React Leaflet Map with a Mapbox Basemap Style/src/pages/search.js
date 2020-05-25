@@ -11,7 +11,7 @@ const SearchPage = () => {
       <Helmet>
         <title>Search</title>
       </Helmet>
-      <Map center={[39.960322, -75.147562]} zoom={12}>
+      <Map center={[38.907132, -77.036546]} zoom={12}>
       { /**
          * @lesson-03-todo
          * Now that we created a new Map Style with Mapbox,

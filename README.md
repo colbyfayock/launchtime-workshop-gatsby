@@ -57,7 +57,7 @@ All of the lessons are contained in their own individual directory within the le
 For each lesson, you can start from scratch by navigating to that lesson's directory and running:
 ```
 yarn install
-# or 
+# or
 npm install
 ```
 
@@ -108,7 +108,7 @@ For example, if we want to find all of the spots where we should be working for 
 * 01 - A Little Overview About Maps
 * 02 - Adding Your First React Leaflet Map to a New React Application
 * 03 - Customizing Your React Leaflet Map with a Mapbox Basemap Style
-* 04 - Adding a Shapes and Markers to a Map with React Leaflet
+* 04 - Adding a Marker to a Map to Point to a Location with React Leaflet
 * 05 - Managing Leaflet State in a React App with Hooks
 * 06 - Create Your First GeoJSON Document with Your Favorite Restaurant Locations
 * 07 - Adding Restaurant Locations to a React Leaflet Map

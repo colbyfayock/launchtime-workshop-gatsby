@@ -28,7 +28,7 @@ const SearchPage = () => {
        * can add our TileLayer where we load OpenStreetMap
        * for our basemap.
        */ }
-      <Map center={[39.960322, -75.147562]} zoom={12}>
+      <Map center={[38.907132, -77.036546]} zoom={12}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
