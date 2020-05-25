@@ -1,4 +1,4 @@
-# Lesson 01: A Little Overview About Maps
+# 📓 Lesson 01: A Little Overview About Maps
 
 The last time you drove out of town, how did you find where to go? That's right, you most likely used a mapping app like Google Maps or Apple Maps, but did you ever think about how those maps were built and whether or not you could build your own?
 
