@@ -1,0 +1,42 @@
+{
+  "name": "launchtime-lesson-06",
+  "description": "Learn how to build a mapping app from scratch!",
+  "version": "0.1.0",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "dependencies": {
+    "gatsby": "^2.21.37",
+    "gatsby-plugin-manifest": "^2.4.5",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-react-leaflet": "^2.0.13",
+    "gatsby-plugin-resolve-src": "^2.1.0",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-source-filesystem": "^2.3.4",
+    "leaflet": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-leaflet": "^2.7.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gatsby",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/launchtime-workshop"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/launchtime-workshop/issues"
+  }
+}
