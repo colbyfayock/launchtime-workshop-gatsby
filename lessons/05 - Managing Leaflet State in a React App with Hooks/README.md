@@ -42,7 +42,10 @@ We'll walk through accessing our Map instance from the ref in our useEffect hook
 
 So far, we haven't noticed any issues with map state, but that doesn't mean there aren't any issues!
 
-We'll walk through a quick demo to see how mismanging our state between our map and React can come back to bite us.
+We'll walk through a quick demo to see how mismanging our state between our map and React can come back to bite us and add a technique for cleaning things up to avoid stale map data.
+
+#### Where We'll Make Changes
+* `/src/pages/search.js`
 
 ## Extra Credit
 
