@@ -17,11 +17,15 @@ We just installed all of our dependencies that will allow us to get started buil
 While there are a few options for building maps, [Leaflet](https://leafletjs.com/) is the most popular. Lucky for us, Leaflet is also available as a ReactJS component library with [React Leaflet](https://react-leaflet.js.org/). We'll use both Leaflet and React Leaflet to build a map in our React-based Gatsby app.
 
 To get started, we need to install:
-* [Leaflet](https://www.npmjs.com/package/leaflet)
-* [React Leaflet](https://www.npmjs.com/package/react-leaflet)
+* [Leaflet (npmjs.com)](https://www.npmjs.com/package/leaflet)
+* [React Leaflet (npmjs.com)](https://www.npmjs.com/package/react-leaflet)
 
 #### Where We'll Make Changes
 * Use your package manager like yarn or npm to add the dependencies
+
+#### Resources
+* [Leaflet (leafletjs.com)](https://leafletjs.com/)
+* [React Leaflet (react-leaflet.js.org)](https://react-leaflet.js.org/)
 
 ### 2. Adding a new map to the Search page
 
@@ -36,6 +40,10 @@ We'll import these components from React Leaflet and use them to create our map.
 #### Where We'll Make Changes
 * `/src/pages/search.js`
 * `/src/assets/stylesheets/components/_maps.scss`
+
+#### Resources
+* [React Leaflet Map (react-leaflet.js.org)](https://react-leaflet.js.org/docs/en/components#map)
+* [React Leaflet TileLayer (react-leaflet.js.org)](https://react-leaflet.js.org/docs/en/components#tilelayer)
 
 ### 3. Making our map take up all of the space on the Search page
 
@@ -52,3 +60,6 @@ Ultimately, we'll want to build our application out in order to host and deploy 
 
 #### Where We'll Make Changes
 * `/gatsby-config.js`
+
+#### Resources
+* [Gatsby Plugin React Leaflet (github.com)](https://github.com/dweirich/gatsby-plugin-react-leaflet)

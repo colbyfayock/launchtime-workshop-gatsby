@@ -6,14 +6,6 @@ import 'leaflet/dist/leaflet.css';
 
 import Layout from 'components/Layout';
 
-/**
- * @lesson-06-answer
- * Because we're storing our data locally, we can
- * import it straight from our data folder. This
- * makes it available as a variable for us to use
- * with our map.
- */
-
 import locations from 'data/locations';
 
 const SearchPage = () => {
@@ -45,11 +37,12 @@ const SearchPage = () => {
     });
 
     /**
-     * @lesson-06-answer
-     * When we imported our locations, it was already
-     * formatted as GeoJSON. Because the Leaflet GeoJSON
-     * instance takes GeoJSON as an input, we can create
-     * a new instance and add it to the map!
+     * @lesson-07-todo
+     * Using the default options of the Leaflet GeoJSON instance
+     * only provides us with markers on our map. Luckily, it
+     * includes the ability to pass in a configuration object
+     * with options for how we want to set up our locations.
+     * What option can we use to add popups to our markers?
      */
 
     const geoJson = new L.GeoJSON(locations);

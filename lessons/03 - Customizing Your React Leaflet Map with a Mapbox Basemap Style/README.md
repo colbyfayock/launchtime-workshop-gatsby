@@ -23,7 +23,7 @@ Mapbox is a suite of mapping tools that provides services from creating a custom
 
 It's easy to create an account and they provide a generous free tier, so it makes a good option for us to get started!
 
-#### Where We'll Make Changes
+#### Resources
 * [Mapbox](https://www.mapbox.com/)
 
 ### 2. Creating a Map Style in Mapbox
@@ -34,7 +34,7 @@ All maps basemap layer that provides the underlying imagery that we can display 
 
 For this part of the exercise, we'll be using Mapbox's Monochrone Map Style to give our map a nice clean look.
 
-#### Where We'll Make Changes
+#### Resources
 * [Mapbox Studio](https://studio.mapbox.com/)
 
 ### 3. Creating an API Key
@@ -45,7 +45,7 @@ When using a basemap from Mapbox, an API Key is a way for Mapbox to know the req
 
 Mapbox gives you a default key, which is okay to use, but we're going to create a new key that we can use specifically for our project.
 
-#### Where We'll Make Changes
+#### Resources
 * [Mapbox Account](https://account.mapbox.com/)
 
 ### 4. Configuring a Mapbox Endpoint for our Map Style
@@ -54,7 +54,7 @@ We've set up the two most important parts of our Map Style, now we need to confi
 
 Using our API Key, user ID, and Map Style ID, we'll create a tile endpoint that we can use to configure our map.
 
-#### What We'll Reference
+#### Resources
 * [Mapbox Docs](https://docs.mapbox.com/api/maps/#static-tiles)
 
 ### 5. Customizing Our Map with Our Map Style Endpoint
@@ -65,6 +65,9 @@ We'll update our Map compopnent that we set up in the previous lesson to use our
 
 #### Where We'll Make Changes
 * `/src/pages/search.js`
+
+#### Resources
+* [React Leaflet TileLayer (react-leaflet.js.org)](https://react-leaflet.js.org/docs/en/components#tilelayer)
 
 ## Extra Credit
 
@@ -77,8 +80,10 @@ Your first extra credit assignment is to go back to Mapbox and create a new Map 
 Once you create your new style, you can update your Search page basemap TileLayer to use that new style.
 
 #### Where We'll Make Changes
-* [Mapbox Studio](https://studio.mapbox.com/)
 * `/src/pages/search.js`
+
+#### Resources
+* [Mapbox Studio](https://studio.mapbox.com/)
 
 ### 2. Create an Environment Variable for the API Key
 

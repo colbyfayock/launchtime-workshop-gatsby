@@ -6,15 +6,7 @@ import 'leaflet/dist/leaflet.css';
 
 import Layout from 'components/Layout';
 
-/**
- * @lesson-06-answer
- * Because we're storing our data locally, we can
- * import it straight from our data folder. This
- * makes it available as a variable for us to use
- * with our map.
- */
-
-import locations from 'data/locations';
+import locations from 'data/locations-answer';
 
 const SearchPage = () => {
   const mapRef = useRef();
@@ -45,14 +37,45 @@ const SearchPage = () => {
     });
 
     /**
-     * @lesson-06-answer
-     * When we imported our locations, it was already
-     * formatted as GeoJSON. Because the Leaflet GeoJSON
-     * instance takes GeoJSON as an input, we can create
-     * a new instance and add it to the map!
+     * @lesson-07-answer
+     * We were able to use the onEachFeature option on the Leaflet GeoJSON
+     * instance add a custom function that lets us both create a new popup
+     * and bind it to our marker layer. We have to use an HTML string to
+     * do this as it's not interfacing directly with React
      */
 
-    const geoJson = new L.GeoJSON(locations);
+    const geoJson = new L.GeoJSON(locations, {
+      onEachFeature: (feature = {}, layer) => {
+        const { properties = {} } = feature;
+        const { name, delivery, tags, phone, website } = properties;
+
+        const popup = L.popup();
+
+        const html = `
+          <div class="restaurant-popup">
+            <h3>${name}</h3>
+            <ul>
+              <li>
+                ${tags.join(', ')}
+              </li>
+              <li>
+                <strong>Delivery:</strong> ${delivery ? 'Yes' : 'No'}
+              </li>
+              <li>
+                <strong>Phone:</strong> ${phone}
+              </li>
+              <li>
+                <strong>Website:</strong> <a href="${website}">${website}</a>
+              </li>
+            </ul>
+          </div>
+        `;
+
+        popup.setContent(html)
+
+        layer.bindPopup(popup);
+      }
+    });
 
     geoJson.addTo(map);
   }, [mapRef]);

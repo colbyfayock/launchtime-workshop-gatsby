@@ -8,7 +8,8 @@ import Layout from 'components/Layout';
 
 /**
  * @lesson-06-todo
- *
+ * In order to add our locations to the map, we need the data.
+ * How can we make it available to this file?
  */
 
 const SearchPage = () => {
@@ -41,7 +42,9 @@ const SearchPage = () => {
 
     /**
      * @lesson-06-todo
-     *
+     * Once our location data is imported, we'll have a GeoJSON
+     * document ready to add to our Leaflet map. How can we use
+     * the Leaflet GeoJSON instance to add or locations?
      */
 
     const marker = L.marker([38.888369, -77.019900])

@@ -1,54 +1,76 @@
-# 📓 Lesson 05: Managing Leaflet State in a React App with Hooks
+# 📓 Lesson 06: Create Your First GeoJSON Document and Add Your Favorite Restaurant Locations to the Map
 
-React Leaflet is an awesome library that gives us components allowing us to easily add a Leaflet map to our React apps. However, once you start working with complex solutions, you'll come to notice that sometimes managing state between React and a Leaflet map can bite you if you're not careful.
+So far, we've created a new map, and we've even added a marker to a spot around the city. But we can extend this concept and use data standard formats in the geospatial space like GeoJSON that will allow us to have a good way to describe these locations.
 
-How can we best manage state between all aspects of our map to take advantage of all features of both React and Leaflet?
+Luckily, GeoJSON interfaces directly with Leaflet, so we'll have an easy time adding that data to the map, but how can we actaully create a GeoJSON document with our locations?
 
 ## Objectives
-* Adding a ref to the Map and access it in useEffect
-* Use the Map ref to access the Leaflet API
-* Demonstrate how mismanaging state can cause issues
+* Understand the basic structure of a GeoJSON document
+* Use geojson.io to create a GeoJSON document
+* Manually add a new location to a GeoJSON document
+* Create and import a GeoJSON document into the app
+* Add GeoJSON feature locations to the map
 
 ## Exercise
 
-🕵️‍♂️ Use the `@lesson-05-todo` key to search for this lesson's assignments in the code!
+🕵️‍♂️ Use the `@lesson-06-todo` key to search for this lesson's assignments in the code!
 
-### 1. Adding a ref to our Map component
+### 1. Understanding the Basics of GeoJSON
 
-In order to access our Map instance, we need to use React's ref functionality. We'll start with React's useRef hook and use it to apply a ref to our map.
+Before we jump straight into creating our new dataset, it will help to get an idea of what it is. We'll first walk through what the GeoJSON standard is and what it's trying to achieve.
+
+#### Resources
+* [GeoJSON Spec (geojson.org)](https://geojson.org/)
+* [GeoJSON Second Bit (macwright.org)](https://macwright.org/2015/03/23/geojson-second-bite.html)
+
+### 2. Using geojson.io to Create Your First GeoJSON Document
+
+Writing data documents by hand isn't always the best approach, nor the most fun. Luckily we have tools available for us, and [geojson.io](http://geojson.io/) is one for GeoJSON.
+
+How can we use it to create the new location data for our map?
+
+#### Resources
+* [geojson.io](http://geojson.io/)
+
+### 3. Manually Add a New Restaurant Location to the GeoJSON Document
+
+While using tools may be easier and more productive, it's always imporatnt to understand the fundamentals and be able to write something by hand. We'll practice by adding a new location to our GeoJSON document by hand!
+
+#### Resources
+* [geojson.io](http://geojson.io/)
+
+### 4. Create a New GeoJSON File and Import it into the App
+
+Now that we have our data, we need it somewhere we can use it!
+
+How can we store this data so we can use it for our map?
 
 #### Where We'll Make Changes
-* `/src/pages/search.js`
+* `src/data/locations.json`
 
-### 2. Accessing our Leaflet Map instance inside a React useEffect hook
+#### Resources
+* [GeoJSON Spec (geojson.org)](https://geojson.org/)
 
-Once we have a ref set up, we gain the ability to access that ref within React's useEffect hook.
+### 5. Add GeoJSON Location Data to the Map
 
-With this, we'll access the current value at the time the useEffect hook is ran.
+Success! We've imported our data and we're now ready to use it. Luckily, Leaflet makes this part relatively easy.
 
-#### Where We'll Make Changes
-* `/src/pages/search.js`
-
-### 3. Use our Leaflet Map instance to re-add our Marker to the map
-
-We now have the power of the Leaflet API to make changes to our Map instance. With this, we can recreate our Marker component by tapping directly into the Leaflet API and creating a new Leaflet Marker instance.
-
-We'll walk through accessing our Map instance from the ref in our useEffect hook and using it to recreate our marker on the map.
+So how can we add our GeoJSON data to the map?
 
 #### Where We'll Make Changes
-* `/src/pages/search.js`
+* `src/pages/search.js`
 
-### 4. Review a simple example of how mismanaging state can
-
-So far, we haven't noticed any issues with map state, but that doesn't mean there aren't any issues!
-
-We'll walk through a quick demo to see how mismanging our state between our map and React can come back to bite us.
+#### Resources
+* [Leaflet GeoJSON (leafletjs.com)](https://leafletjs.com/reference-1.6.0.html#geojson)
 
 ## Extra Credit
 
-### 1. Recreate the marker from your 2nd favorite location
+### 1. Add another location to the map
 
-In our previous lesson, we added a 2nd location to the map. Let's do this again but by using the Leaflet API within our useEffect hook.
+Time to take off the training wheels -- now it's your turn to manually add a new location to our new GeoJSON document!
 
 #### Where We'll Make Changes
-* `/src/pages/search.js`
+* `src/data/locations.json`
+
+#### Resources
+* [GeoJSON Spec (geojson.org)](https://geojson.org/)

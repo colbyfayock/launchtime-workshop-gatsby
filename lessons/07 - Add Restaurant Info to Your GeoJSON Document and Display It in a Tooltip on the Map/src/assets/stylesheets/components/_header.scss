@@ -1,0 +1,59 @@
+.header {
+
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 1px $LaunchTime-cyan;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 4em;
+    line-height: 4em;
+    padding: 0 1em;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+}
+
+.header-logo {
+
+  font-size: 1.4em;
+
+  &,
+  a {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+}
+
+.header-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-avatar {
+
+  overflow: hidden;
+  width: 3em;
+  height: 3em;
+  background: $blue-grey-600;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 100%;
+  margin: 0;
+  border: solid 2px $LaunchTime-purple;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+}
