@@ -112,10 +112,9 @@ For example, if we want to find all of the spots where we should be working for 
 * 05 - Managing Leaflet State in a React App with Hooks
 * 06 - Create Your First GeoJSON Document and Add Your Favorite Restaurant Locations to the Map
 * 07 - Add Restaurant Info to Your GeoJSON Document and Display It in a Tooltip on the Map
-* 08 - Customize Restaurant Location Markers with Custom Images
-* 09 - Add Custom Tooltips to Markers with Restaurant Information
-* 10 - Add Shaded Regions to Map with Restaurant Delivery Zones
-* 11 - Use Leaflet's Geolocation API to Find Your Location
+* 08 - Add Restaurant Delivery Zones to Map with Shaded Regions
+* 09 - Customize Restaurant Location Markers with Custom Images
+* 10 - Use Leaflet's Geolocation API to Find Your Location
 
 ## 🎓 After the Workshop
 
