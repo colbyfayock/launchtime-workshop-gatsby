@@ -11,7 +11,7 @@ We'll learn how to create custom markers by using a new configuration option wit
 
 ## Exercise
 
-🕵️‍♂️ Use the `@lesson9-todo` key to search for this lesson's assignments in the code!
+🕵️‍♂️ Use the `@lesson-09-todo` key to search for this lesson's assignments in the code!
 
 ### 1. Recreate restaurant markers with GeoJSON configuration option
 

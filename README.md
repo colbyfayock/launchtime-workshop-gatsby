@@ -114,7 +114,7 @@ For example, if we want to find all of the spots where we should be working for 
 * 07 - Add Restaurant Info to Your GeoJSON Document and Display It in a Tooltip on the Map
 * 08 - Add Restaurant Delivery Zones to Map with Shaded Regions
 * 09 - Customize Restaurant Location Markers with Custom Images
-* 10 - Use Leaflet's Geolocation API to Find Your Location
+* 10 - Use Leaflet's Geolocation API to Find Locations Near you
 
 ## 🎓 After the Workshop
 
