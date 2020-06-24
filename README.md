@@ -105,16 +105,16 @@ For example, if we want to find all of the spots where we should be working for 
 ### Lesson Plan
 
 * 00 - Introduction
-* 01 - A Little Overview About Maps
-* 02 - Adding Your First React Leaflet Map to a New React Application
-* 03 - Customizing Your React Leaflet Map with a Mapbox Basemap Style
-* 04 - Adding a Marker to a Map to Point to a Location with React Leaflet
-* 05 - Managing Leaflet State in a React App with Hooks
-* 06 - Create Your First GeoJSON Document and Add Your Favorite Restaurant Locations to the Map
-* 07 - Add Restaurant Info to Your GeoJSON Document and Display It in a Tooltip on the Map
-* 08 - Add Restaurant Delivery Zones to Map with Shaded Regions
-* 09 - Customize Restaurant Location Markers with Custom Images
-* 10 - Use Leaflet's Geolocation API to Find Locations Near you
+* [01 - A Little Overview About Maps](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/01%20-%20A%20Little%20Overview%20About%20Maps)
+* [02 - Adding Your First React Leaflet Map to a New React Application](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/02%20-%20Adding%20Your%20First%20React%20Leaflet%20Map%20to%20a%20New%20React%20Application)
+* [03 - Customizing Your React Leaflet Map with a Mapbox Basemap Style](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/03%20-%20Customizing%20Your%20React%20Leaflet%20Map%20with%20a%20Mapbox%20Basemap%20Style)
+* [04 - Adding a Marker to a Map to Point to a Location with React Leaflet](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/04%20-%20Adding%20a%20Marker%20to%20a%20Map%20to%20Point%20to%20a%20Location%20with%20React%20Leaflet)
+* [05 - Managing Leaflet State in a React App with Hooks](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/05%20-%20Managing%20Leaflet%20State%20in%20a%20React%20App%20with%20Hooks)
+* [06 - Create Your First GeoJSON Document and Add Your Favorite Restaurant Locations to the Map](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/06%20-%20Create%20Your%20First%20GeoJSON%20Document%20and%20Add%20Your%20Favorite%20Restaurant%20Locations%20to%20the%20Map)
+* [07 - Add Restaurant Info to Your GeoJSON Document and Display It in a Tooltip on the Map](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/07%20-%20Add%20Restaurant%20Info%20to%20Your%20GeoJSON%20Document%20and%20Display%20It%20in%20a%20Tooltip%20on%20the%20Map)
+* [08 - Add Restaurant Delivery Zones to Map with Shaded Regions](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/08%20-%20Add%20Restaurant%20Delivery%20Zones%20to%20Map%20with%20Shaded%20Regions)
+* [09 - Customize Restaurant Location Markers with Custom Images](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/09%20-%20Customize%20Restaurant%20Location%20Markers%20with%20Custom%20Images)
+* [10 - Use Leaflet's Geolocation API to Find Locations Near you](https://github.com/colbyfayock/launchtime-workshop/tree/master/lessons/10%20-%20Use%20Leaflet's%20Geolocation%20API%20to%20Find%20Locations%20Near%20you)
 
 ## 🎓 After the Workshop
 
