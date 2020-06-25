@@ -10,7 +10,6 @@ import { Helmet } from 'react-helmet';
  * like a map.
  */
 import { Map, TileLayer } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
 
 import Layout from 'components/Layout';
 
