@@ -1,6 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+/**
+ * @lesson-02-todo
+ * In order to build our map, we need to import out components.
+ * How can we add those to our project?
+ */
+
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 
