@@ -50,7 +50,7 @@ We'll import these components from React Leaflet and use them to create our map.
 With our map rendered, we'll notice that there's a white border around the edge of our map. We want our custoemrs to be able to see a fullscreen look at the locations we have available, so we'll want to figure out a way to remove the extra space around our map.
 
 #### Where We'll Make Changes
-* `/src/assets/stylesheets/components/_search.scss`
+* `/src/assets/stylesheets/pages/_search.scss`
 
 ## Extra Credit
 
