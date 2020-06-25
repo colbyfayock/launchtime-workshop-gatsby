@@ -1,13 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-/**
- * @lesson-02-todo
- * We want to our map to be able to take up as much space
- * as possible within our viewport. How can we remove the
- * extra padding only on the Search Page?
- */
-
 import Layout from 'components/Layout';
 import Container from 'components/Container';
 
